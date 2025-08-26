@@ -1,28 +1,188 @@
-Introduction to Mobile Development with React Native, TypeScript, NativeWindCSS (Using Expo Framework)
-Mobile development has evolved significantly over the years, with frameworks and tools that enable developers to build high-quality, cross-platform applications efficiently. One such powerful combination is React Native, TypeScript, NativeWindCSS, and the Expo framework. This stack allows developers to create performant, scalable, and visually appealing mobile applications for both iOS and Android platforms with a single codebase.
+---
 
-We’ll explore how to get started with mobile development using these technologies, their benefits, and how they work together seamlessly.
+## Assessment & Submission
 
-What is React Native?
-React Native is an open-source framework developed by Facebook (now Meta) for building cross-platform mobile applications using JavaScript and React. It allows developers to write code once and deploy it on both iOS and Android platforms, saving time and effort. React Native uses native components under the hood, ensuring that the apps look and feel like native applications.
+- Complete tasks on time
+- Submit all required files
+- Generate your review link
+- Peer review required
+- Auto-check for core files
 
-Why TypeScript?
-TypeScript is a strongly typed superset of JavaScript that adds optional static typing to the language. By using TypeScript in your React Native projects, you can:
+**Note:**  
+Late submissions cannot generate a review link.
 
-Catch errors during development (rather than at runtime).
-Improve code readability and maintainability.
-Enhance developer productivity with better tooling and autocompletion.
-Scale your application more effectively as it grows in complexity.
-What is NativeWindCSS?
-NativeWindCSS is a utility-first CSS framework tailored for React Native. It allows you to style your components using a set of pre-defined utility classes, similar to TailwindCSS. With NativeWindCSS, you can: - Write styles directly in your JSX using class names. - Maintain a consistent design system across your application. - Reduce the need for writing custom CSS. - Leverage responsive design and dark mode support effortlessly.
+---
 
-Why Use Expo?
-Expo is a framework and platform built on top of React Native that simplifies the development process. It provides a set of tools and services that make it easier to build, deploy, and manage React Native applications. Some key benefits of using Expo include:
+## Suggestions for Improvement
 
-Quick setup: Expo handles the complex configuration of native code, so you can focus on building your app.
-Expo Go: A development client that allows you to test your app on physical devices without needing to build it.
-Pre-built components: Access to a wide range of pre-built UI components and APIs (e.g., camera, maps, notifications).
-Over-the-air updates: Push updates to your app without going through the app store approval process.
+- Add a table of contents for easier navigation.
+- Include links to official documentation for each technology.
+- Add troubleshooting tips for common setup issues.
+- Use code blocks for commands and file paths.
+- Consider adding screenshots or diagrams for visual guidance.
+
+---
+
+Happy coding! 🚀
+---
+
+## Project Tasks & Assessment
+
+### 0. Environment Setup
+
+**Objective:**  
+Mobile development requires more resources than web. We use Expo for simplified setup and testing.
+
+**Required Tools:**
+- Node.js LTS
+- VS Code
+- macOS, Linux, or Windows
+- Expo Go (Android/iOS)
+
+**Expo Go Installation:**
+- [Expo Go Homepage](https://expo.dev/go)
+- Install via Google Play Store (Android) or Apple App Store (iOS)
+- Log in or create an account
+
+**Tip:**  
+Document your setup process and any challenges in this README.
+
+---
+
+### 1. Create Your First Mobile App
+
+**Steps:**
+1. Navigate to your project directory:
+  ```bash
+  cd prodev-mobile-setup
+  ```
+2. Initialize a new Expo project:
+  ```bash
+  npx create-expo-app@latest .
+  ```
+3. Modify the Home Screen:
+  - Edit `app/(tabs)/index.tsx`
+  - Change default text to: `First App Created`
+4. Run and test your app:
+  ```bash
+  npx expo start
+  ```
+5. Reset the application:
+  ```bash
+  npm run reset-project
+  ```
+  Document the effects of this command.
+
+---
+
+### 2. Implementing Mobile Components
+
+**Objective:**  
+Use React Native components and styling.
+
+**Instructions:**
+- Initialize a new Expo project:  
+  `npx create-expo-app@latest prodev-mobile-app-0x01`
+- Update `app/index.tsx` with specified text and styles.
+- Use `StyleSheet` for styling.
+
+---
+
+### 3. Safe Areas, Images, and Touchable Components
+
+**Objective:**  
+Explore essential React Native components: `SafeAreaView`, `Image`, `ImageBackground`, `TouchableOpacity`, `Dimensions`.
+
+**Instructions:**
+- Set up project and assets
+- Implement safe areas and background images
+- Center logo, add text elements, create button group, and navigation prompt
+- Apply provided styles
+
+---
+
+### 4. Explore More Core Components
+
+**Objective:**  
+Build a sample app using core React Native components.
+
+**Instructions:**
+- Create a new Expo app:  
+  `npx create-expo-app@latest prodev-mobile-app-0x03`
+- Implement styles in `styles/index.tsx`
+- Structure login screen in `app/index.tsx`
+- Test on Expo Go
+
+---
+---
+
+## Getting Started
+
+### 1. Prerequisites
+
+Ensure the following are installed:
+- [Node.js](https://nodejs.org/) (v16+)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) (`npm install -g expo-cli`)
+- [VS Code](https://code.visualstudio.com/) or your preferred editor
+
+### 2. Create a New Expo Project
+
+```bash
+npx create-expo-app MyApp
+cd MyApp
+```
+
+### 3. Run Your App
+
+```bash
+npx expo start
+```
+Scan the QR code with Expo Go on your device or use an emulator.
+
+---
+
+## Stack Benefits
+
+- **Cross-platform:** One codebase for iOS & Android
+- **Type safety:** Fewer runtime errors, better code quality
+- **Efficient styling:** Utility-first CSS with NativeWindCSS
+- **Rapid development:** Expo’s tools accelerate the process
+
+---
+---
+
+# Mobile Development Setup with React Native, TypeScript, NativeWindCSS & Expo
+
+## Overview
+
+Modern mobile development enables building high-quality, cross-platform apps efficiently. This guide introduces a robust stack: **React Native**, **TypeScript**, **NativeWindCSS**, and **Expo**—empowering you to create performant, scalable, and visually appealing mobile applications for both iOS and Android from a single codebase.
+
+---
+
+## Technology Stack
+
+### React Native
+An open-source framework by Meta for building cross-platform mobile apps using JavaScript and React. Write once, deploy on both iOS and Android, leveraging native components for a true native experience.
+
+### TypeScript
+A strongly typed superset of JavaScript. Benefits:
+- Early error detection
+- Improved code readability and maintainability
+- Enhanced developer productivity
+- Scalable codebase
+
+### NativeWindCSS
+A utility-first CSS framework for React Native, inspired by TailwindCSS. Features:
+- Style components directly in JSX
+- Consistent design system
+- Responsive design and dark mode support
+
+### Expo
+A framework and platform built on React Native, simplifying development and deployment. Key benefits:
+- Quick setup (no native code configuration required)
+- Expo Go for instant device testing
+- Pre-built UI components and APIs
+- Over-the-air updates
 Getting Started with React Native, TypeScript, NativeWindCSS, and Expo
 1. Set Up Your Development Environment
 Before you start, ensure you have the following installed:
